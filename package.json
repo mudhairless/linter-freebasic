@@ -1,0 +1,19 @@
+{
+  "name": "linter-freebasic",
+  "linter-package": true,
+  "activationEvents": [],
+  "main": "./lib/init",
+  "version": "0.0.0",
+  "description": "Lint FreeBASIC on the fly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mudhairless/linter-freebasic"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "Linter": "git://github.com/AtomLinter/Linter.git"
+  }
+}
